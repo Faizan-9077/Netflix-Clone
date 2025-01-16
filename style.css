@@ -92,10 +92,13 @@ nav img {
 }
 
 .main2{
+    width: 100%;
+    height: 100vh;
     margin-top: -2rem;
-    padding: 0 5rem;
+    padding: 0 148px;
     height: 100vh;
     background-repeat: no-repeat;
+    
 }
 
 h2{
@@ -114,6 +117,7 @@ h2{
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
+    transform: translateX(20px);
 }
 
 #ent{
@@ -125,28 +129,32 @@ h2{
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
+    transform: translateX(20px);
 }
 
-/* Main container for images */
+
 .image-container {
     display: flex;
-    gap: 10px; /* Adds spacing between the images */
+    gap: 10px;
     padding: 10px;
+    overflow:hidden;
 }
 
-/* Each image box */
+
 .image-box {
     position: relative;
-    width: 200px; /* Set width for each image */
-    flex-shrink: 0; /* Prevents images from shrinking */
+    width: 200px;
+    flex-shrink: 0;
     margin: 20px;
+    margin-bottom: 60px;
+    cursor: pointer;
 }
 
-/* Images styling */
+
 .image-box img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Adds rounded corners to the images */
+    border-radius: 10px; 
     display: block;
 }
 
@@ -154,17 +162,123 @@ h2{
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: white;
     font-size: 24px;
     font-weight: bold;
     width: 40px;
     height: 40px;
-    border-radius: 50%; /* Makes the number container circular */
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+h3{
+    color: white;
+}
+
+.other {
+    background-color :black;
+    display: flex; 
+    width: 1268.8px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.other div {
+    background: linear-gradient(to bottom right, #1a1f40, #1f1323);
+    flex: 1;
+    margin: 15px; 
+    height: 300px;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    padding: 45px 20px; /* Use padding to position the text */
+    overflow: hidden; /* Ensure no overflow occurs */
+}
+
+.other h3{
+    color: white; 
+    font-size: 22px; 
+    font-weight: 400;
+    transform: translateY(-25px);
+}
+
+.other p {
+    color: #FFFFFFB3;
+    font-size: 16px;
+    margin: 0; 
+    transform: translateY(-10px);
+}
+
+h2{
+    color: white;
+    font-size: 22px;
+    transform: translateX(15px);
+    margin: 10px
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq div{
+    font-size: 25px;
+    width: 972.8px;
+    height: 34px;
+    color: white;
+    background-color: #2d2d2d;
+    padding: 24px;
+    margin: 5px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.faq div::after {
+    content: "+"; 
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    right: 24px; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.end{
+    position: relative;
+}
+
+.end h3{
+    position: absolute;
+    left: 180px;
+    font-size: 16px;
+    margin-top: 50px;
+    font-family: helvetica;
+}
+
+.end div {
+    position: absolute;
+    top: 100px; 
+    left: 50px; 
+}
+
+.end input {
+    padding: 10px;
+    font-size: 16px;
+    width: 600px;      
+    height: 35px;     
+    border-radius: 5px;
+    color: white;
+    background-color: #0f0f0f;
+    margin-bottom: 10px; 
+}
+
+
 
 
 @media (max-width: 960px) {
