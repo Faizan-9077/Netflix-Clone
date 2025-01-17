@@ -64,22 +64,49 @@ nav img {
 .hero> :nth-child(1) {
     text-align: center;
     font-weight: 900;
-    font-size: 3.4rem;
+    font-size: 3.8rem;
     line-height: 1.25;
     transform: translateY(-40px);
-
 }
 
 .hero> :nth-child(2) {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     transform: translateY(-45px);
 }
 
 .hero> :nth-child(3) {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     transform: translateY(-35px);
+}
+
+.hero div{
+    position: absolute;
+    top: 480px;
+    left: 446px;
+}
+
+.hero input{
+    height: 45px;
+    width: 400px;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    background-color: #0f0f0f;
+     
+}
+
+.hero button{
+    height: 51px;
+    width: 150px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    transform: translateY(1.5px);
+    margin-left: 5px;
+    
 }
 
 .box2{
@@ -198,8 +225,8 @@ h3{
     height: 300px;
     border-radius: 10px; 
     box-sizing: border-box;
-    padding: 45px 20px; /* Use padding to position the text */
-    overflow: hidden; /* Ensure no overflow occurs */
+    padding: 45px 20px; 
+    overflow: hidden;
 }
 
 .other h3{
@@ -260,7 +287,7 @@ h2{
 
 .end h3{
     position: absolute;
-    left: 180px;
+    left: 220px;
     font-size: 16px;
     margin-top: 50px;
     font-family: helvetica;
@@ -268,8 +295,8 @@ h2{
 
 .end span {
     position: absolute;
-    top: 100px; 
-    left: 50px; 
+    top: 120px; 
+    left: 90px; 
 }
 
 .end input {
@@ -289,10 +316,59 @@ h2{
     margin-left: 10px;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: bolder;
     transform: translateY(1.5px);
     background-color: red;
     color: white;
 }
+
+footer{
+    color: grey;
+    max-width: 70vw;
+    margin: auto;
+    padding: 60px;
+    transform: translate(-55px, 940px);
+}
+
+footer .questions{
+    font-size: 20px;
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+a { 
+    color: inherit; 
+    font-size: 15px;
+}
+
+#lang{
+    width: 100px;
+    height: 40px;
+    padding-left: 7px;
+    font-size: 16px;
+    transform: translate(-4px, 40px);
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+footer span{
+    transform: translate(-277px, 120px);
+    font-size: 16px;
+}
+
+
 
 @media (max-width: 960px) {
     #country, #ent{
