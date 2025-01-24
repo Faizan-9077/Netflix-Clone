@@ -1,5 +1,4 @@
 # Netflix Clone
-
 A clone of the Netflix website created using HTML and CSS.
 
 ## Features
@@ -7,7 +6,7 @@ A clone of the Netflix website created using HTML and CSS.
 - Functional design inspired by Netflix.
 
 ## Current Status
-- The project is **not responsive** yet. Responsiveness is planned as a future enhancement.
+- The project is **not responsive** yet as it is for practice. Responsiveness will be added in a future enhancement.
 
 ## How to Run
 1. Clone this repository.
